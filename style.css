@@ -1,0 +1,249 @@
+body {
+    background-color: #D4D9DF;
+}
+.gradient-background {
+    background-color: #D4D9DF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Computer {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, .display-5 {
+    color: #184954;
+    font-size: 4rem;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.aboutme {
+    color: #184954;
+    font-size: 4rem;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif Caption', serif;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.about {
+    background-color: #D4D9DF;
+}
+.text1 {
+    background-color: #86B0AF;
+    padding:  50px 40px 10px;   
+    margin-bottom: 0px;
+    
+}
+
+.text {
+    padding: 20px;
+}
+
+.inner-about {
+    margin-bottom: 200px;
+    margin-top: 0px;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: 600;
+    color: #184954;
+    
+}
+
+.outer-div {
+    height: 500px;
+    width: 100%;
+    background-color: #D4D9DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div {
+    background-color: #184954;
+    width: 98%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innermost-div {
+    width: 98%;
+    height: 580px;
+    background-color: #D4D9DF;
+    
+}
+
+.innermost-div:hover {
+    opacity: 0.7;
+    filter: grayscale(50%);
+}
+
+
+
+.line2 {
+    font-family: cursive;
+}
+.beach {
+    border: 10px solid;
+    border-radius: 50%;
+    border-color: #184954;
+   
+}
+
+.Discover:hover {
+    color: #D4D9DF;
+    background-color: #184954;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.Passion {
+    color: #D4D9DF;
+}
+
+.intrest {
+    padding-top: 50px;
+}
+
+.passion-btn {
+    background-color: #86B0AF;
+    border-color: #184954;
+    margin-left: 50px;
+}
+
+.passion-btn:hover {
+    background-color: #184954;
+}
+
+.project {
+    padding-top: 30px;
+    padding-bottom: 0;
+    border-bottom: 5px solid;
+    border-color: #184954;
+}
+
+.img-container {
+    width: 140px; 
+    height: 140px; 
+    overflow: hidden; 
+    display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+}
+
+.img-container img {
+    width: 140px; /* Set your desired width */
+    height: 140px; /* Set your desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: block; /* Center-align the image horizontally */
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #86B0AF;
+    border: #D4D9DF solid 10px;
+    border-radius: 50px;
+}
+
+.project-p {
+    height: 120px;
+    font-size: 20px;
+    font-family: auto;
+    
+    
+}
+
+.project-p2 {
+    height: 70px;
+    font-size: 20px;
+    font-family: auto;
+}
+
+.fw-normal {
+    color: #184954;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.btn-secondary {
+    background-color: #184954;
+}
+
+.btn-secondary:hover {
+    background-color: #86B0AF;
+}
+
+svg {
+    padding: 10px;
+   }
+
+.icon {
+    border-radius: 20%;
+    background-color: #184954 !important;
+   }
+
+.Certification {
+    border-bottom: solid 5px;
+}
+
+.contact {
+    background-color: #A2BABE;
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 2.5rem !important;
+    }
+    h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .beach {
+        height: 250px !important;
+        width: 250px !important;
+        border-radius: 0% !important;
+        margin-left: 200px !important;
+    }
+
+    .inner-about {
+        margin-bottom: 150px !important;
+        margin-top: 0px !important;
+    }
+
+    .aboutme {
+        margin-left: 0px !important;
+    }
+    .text {
+        padding-left: 40px;
+    }
+
+    .project-p {
+        height: auto;
+        
+    }
+}

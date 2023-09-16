@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D4D9DF;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1vh;
+    margin-inline: auto;
+    max-width: 80rem;
+    background: #A2BABE;
+    padding: 1vh;
+}
+
+ .gallery > img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.gallery:has(img:hover) img:not(:hover) {
+    scale: 0.8;
+    opacity: 0.5;
+    filter: grayscale(20%);
+}
+
+h3 {
+    color: #184954;
+    font-size: 2rem;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.header {
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add padding for spacing */
+    color: #184954; /* Text color */
+}
+
+@media (max-width: 520px) {
+    body {
+        height: 700px;
+    }
+}
+    
+    </style>
+</head> 
+<body>
+    <div class="heading">
+        <h3>Nature Collection</h3>
+      </div>
+
+    <div class="gallery">
+        
+               <img src="./nature-photo/N1.jpg" alt="" >
+                <img  src="./nature-photo/N10.jpg" alt="">
+                <img  src="./nature-photo/N2.jpg" alt="">
+                <img  src="./nature-photo/N40.jpeg" alt="">
+                <img  src="./nature-photo/N3.jpg" alt="">
+                <img  src="./nature-photo/N8.jpg" alt="">
+                <img  src="./nature-photo/N4.jpg" alt="">
+                <img  src="./nature-photo/N7.jpg" alt="">
+                <img  src="./nature-photo/N5.jpg" alt="">
+                <img  src="./nature-photo/N6.jpg" alt="">
+                <img  src="./nature-photo/N13.jpg" alt="">
+                <img  src="./nature-photo/N12.jpg" alt="">
+                <img  src="./nature-photo/N11.jpg" alt="">
+                <img src="./nature-photo/N16.jpg" alt="">
+                <img src="./nature-photo/N14.jpg" alt="">
+                <img src="./nature-photo/N18.jpg" alt="">
+                <img src="./nature-photo/N20.jpg" alt="">
+                <img src="./nature-photo/N22.jpg" alt="">
+                <img src="./nature-photo/N24.jpg" alt="">
+                <img src="./nature-photo/N26.jpg" alt="">
+                <img src="./nature-photo/N25.jpg" alt="">
+                <img src="./nature-photo/N23.jpg" alt="">
+                <img src="./nature-photo/N21.jpg" alt="">
+                <img src="./nature-photo/N19.jpg" alt="">
+                <img src="./nature-photo/N17.jpg" alt="">
+                <img src="./nature-photo/N15.jpg" alt="">
+                <img src="./nature-photo/N28.jpg" alt="">
+                <img src="./nature-photo/N30.jpg" alt="">
+                <img src="./nature-photo/N32.jpg" alt="">
+                <img src="./nature-photo/N34.jpg" alt="">
+                <img src="./nature-photo/N36.jpg" alt="">
+                <img src="./nature-photo/N38.jpg" alt="">
+                <img src="./nature-photo/N39.jpeg" alt="">
+                <img src="./nature-photo/N37.jpg" alt="">
+                <img src="./nature-photo/N35.jpg" alt="">
+                <img src="./nature-photo/N33.jpg" alt="">
+                <img src="./nature-photo/N31.jpg" alt="">
+                <img src="./nature-photo/N29.jpg" alt="">
+                <img src="./nature-photo/N27.jpg" alt="">
+
+                <img src="./nature-photo/N41.jpeg" alt="">
+                <img src="./nature-photo/N42.jpeg" alt="">
+                <img src="./nature-photo/N43.jpeg" alt="">
+               
+    </div>
+<!--    
+    <div class="heading">
+        <h3>Nature Collection</h3>
+      </div>
+                <img src="./nature-photo/N1.jpg" alt="" >
+                <img  src="./nature-photo/N10.jpg" alt="">
+                <img  src="./nature-photo/N2.jpg" alt="">
+                <img  src="./nature-photo/N40.jpeg" alt="">
+                <img  src="./nature-photo/N3.jpg" alt="">
+                <img  src="./nature-photo/N8.jpg" alt="">
+                <img  src="./nature-photo/N4.jpg" alt="">
+                <img  src="./nature-photo/N7.jpg" alt="">
+                <img  src="./nature-photo/N5.jpg" alt="">
+
+                <img  src="./nature-photo/N6.jpg" alt="">
+                <img  src="./nature-photo/N13.jpg" alt="">
+                <img  src="./nature-photo/N12.jpg" alt="">
+                <img  src="./nature-photo/N11.jpg" alt="">
+              <img src="./nature-photo/N16.jpg" alt="">
+          <img src="./nature-photo/N14.jpg" alt="">
+
+
+          <img src="./nature-photo/N18.jpg" alt="">
+          <img src="./nature-photo/N20.jpg" alt="">
+          <img src="./nature-photo/N22.jpg" alt="">
+          <img src="./nature-photo/N24.jpg" alt="">
+          <img src="./nature-photo/N26.jpg" alt="">
+          <img src="./nature-photo/N25.jpg" alt="">
+          <img src="./nature-photo/N23.jpg" alt="">
+          <img src="./nature-photo/N21.jpg" alt="">
+          <img src="./nature-photo/N19.jpg" alt="">
+          <img src="./nature-photo/N17.jpg" alt="">
+          <img src="./nature-photo/N15.jpg" alt="">
+                <img src="./nature-photo/N28.jpg" alt="">
+                <img src="./nature-photo/N30.jpg" alt="">
+                <img src="./nature-photo/N32.jpg" alt="">
+                <img src="./nature-photo/N34.jpg" alt="">
+                <img src="./nature-photo/N36.jpg" alt="">
+                <img src="./nature-photo/N38.jpg" alt="">
+                <img src="./nature-photo/N39.jpg" alt="">
+                <img src="./nature-photo/N37.jpg" alt="">
+                <img src="./nature-photo/N35.jpg" alt="">
+                <img src="./nature-photo/N33.jpg" alt="">
+                <img src="./nature-photo/N31.jpg" alt="">
+                <img src="./nature-photo/N29.jpg" alt="">
+                <img src="./nature-photo/N27.jpg" alt="">
+-->
+
+</body>
+</html>
